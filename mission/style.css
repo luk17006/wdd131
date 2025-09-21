@@ -1,0 +1,50 @@
+/* I had AI guess the fonts from the image and it sure did a terrible job but I just went with it */
+
+#content {
+    max-width: 80%;
+    /* Margin is space between top/bottom and left/right outside of border */
+    margin: 60px auto;
+    /* Border needs thickness, kind of line, and color of line */
+    /* Border is optional */
+    border: 1px solid #CBCBCB;
+    /* Padding is space between text and border (on inside) */
+    padding: 40px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: #2784C2;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+#main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+hr {
+    width: 60%;
+    margin: 10px auto;
+    border: 0;
+    border-top: 1px solid #CBCBCB;
+}
+
+img {
+    /* Pictures are in-line, not block level */
+    width: 20%;
+    text-align: center;
+    /* But I can make it block level */
+    display: block;
+    margin: 0 auto;
+}
